@@ -14,6 +14,7 @@ void Write(QString FileName,QString str){
         return;
     }
     QTextStream out(&mFile);
+    out.setEncoding(QStringConverter::System);
     out<<str;
     mFile.flush();
     mFile.close();
