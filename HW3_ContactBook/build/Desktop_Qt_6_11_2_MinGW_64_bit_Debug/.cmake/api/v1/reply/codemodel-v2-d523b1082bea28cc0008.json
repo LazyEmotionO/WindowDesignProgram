@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6e5e84bb48a06405196d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ContactBook",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ContactBook::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContactBook-Debug-bd557615cddf0fef680d.json",
+					"name" : "ContactBook",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContactBook_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContactBook_autogen-Debug-ab9717e4a457d431b2ab.json",
+					"name" : "ContactBook_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContactBook_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContactBook_autogen_timestamp_deps-Debug-9acfc3e9acfb8d9af3d1.json",
+					"name" : "ContactBook_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Leo/Desktop/HomeWork/WindowDesignProgram/WindowDesignProgram/HW3_ContactBook/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug",
+		"source" : "C:/Users/Leo/Desktop/HomeWork/WindowDesignProgram/WindowDesignProgram/HW3_ContactBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
