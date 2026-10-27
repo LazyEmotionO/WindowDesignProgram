@@ -3,13 +3,17 @@
 #include <QFile>
 #include <QDebug>
 #include <QFileDialog>
+#include <QFileInfo>
 
 //QString mFileName = "C:/Users/user/Desktop/41243260_10_19/ContactBook/output/output.txt";
 //QString mFileName = "../../output/output.txt";
-QString mFileName = "../../output/output.csv";
+QString mFileName = "../../../output/output.csv";
 
 void Write(QString FileName,QString str){
     QFile mFile(FileName);
+    //QFileInfo info(FileName);
+    //QDir().mkpath(info.absolutePath());
+
     if(!mFile.open(QFile::WriteOnly | QFile::Text)){
         qDebug()<<"cannot open this file\n";
         qDebug()<<QCoreApplication::applicationDirPath()<<"\n";
